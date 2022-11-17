@@ -1,4 +1,19 @@
-# Remix With | MUI
+# 𝙍𝙚𝙢𝙞𝙭 𝙒𝙞𝙩𝙝 | ℛℯ𝒶𝒸𝓉 ℳ𝒰𝐼
+
+- [𝙍𝙚𝙢𝙞𝙭 𝙒𝙞𝙩𝙝 | ℛℯ𝒶𝒸𝓉 ℳ𝒰𝐼](#𝙍𝙚𝙢𝙞𝙭-𝙒𝙞𝙩𝙝--ℛℯ𝒶𝒸𝓉-ℳ𝒰𝐼)
+  - [Purpose](#purpose)
+  - [Installation](#installation)
+    - [npm](#npm)
+    - [pnpm](#pnpm)
+    - [yarn](#yarn)
+  - [Conventions](#conventions)
+    - [entry.client.tsx](#entryclienttsx)
+    - [entry.server.tsx](#entryservertsx)
+    - [root.tsx](#roottsx)
+  - [Collaboration](#collaboration)
+  - [LICENSE](#license)
+
+## Purpose
 
 Helps to integrate MUI/Emotion into your Remix Run project.
 
@@ -146,3 +161,11 @@ export function CatchBoundary() {
     );
 }
 ```
+
+## Collaboration
+
+You are welcome to contribute ≧◡≦
+
+## LICENSE
+
+MIT
