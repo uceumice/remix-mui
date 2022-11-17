@@ -1,0 +1,51 @@
+{
+    "name": "@remix.w/mui",
+    "main": "./out/index.js",
+    "types": "./out/index.d.ts",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "tsc -w",
+        "build": "tsc",
+        "format": "prettier --write \"src/**/*(.ts|.tsx)\"",
+        "prepare": "npm run build",
+        "version": "npm run format && git add -A src",
+        "postversion": "git push && git push --tags"
+    },
+    "devDependencies": {
+        "@remix-run/dev": "^1.7.5",
+        "@types/node": "^18.11.9",
+        "@types/react": "^18.0.25",
+        "prettier": "^2.7.1",
+        "typescript": "^4.9.3"
+    },
+    "dependencies": {
+        "@babel/core": "^7.20.2",
+        "@emotion/cache": "^11.10.5",
+        "@emotion/react": "^11.10.5",
+        "@emotion/server": "^11.10.0",
+        "@mui/material": "^5.10.14",
+        "react": "^18.2.0"
+    },
+    "engines": {
+        "node": ">=14"
+    },
+    "author": {
+        "name": "uceumice",
+        "url": "https://uceumice.com",
+        "email": "hi@uceumice.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/uceumice/remix.w-mui"
+    },
+    "keywords": [
+        "remix",
+        "remix.run",
+        "mui",
+        "material-ui",
+        "emotion",
+        "react",
+        "fonts"
+    ],
+    "license": "MIT"
+}
